@@ -2,12 +2,11 @@ package stratege.version8.pattern1;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Function;
 import java.util.function.Predicate;
 
 import stratege.version8.pattern1.Asset.AssetType;
 
-public class demoMain {
+public class DemoMain {
 	public static void main(String[] args) {
 //		
 //		Function<String, > testFunct = new Function<T, R>() {
