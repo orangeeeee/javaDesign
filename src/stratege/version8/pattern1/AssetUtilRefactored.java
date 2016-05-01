@@ -18,9 +18,6 @@ public class AssetUtilRefactored {
 	
 	//良い例かは分からないが、このようなこともできる。
 	public static Predicate<Asset> EXPRESSION_2() {
-
-		Predicate<Asset> assetExpression2 = asset -> asset.getType() == AssetType.BOND;
-		
-		return assetExpression2;
+		return asset -> asset.getType() == AssetType.BOND;
 	}
 }
