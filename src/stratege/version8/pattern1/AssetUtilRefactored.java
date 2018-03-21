@@ -1,5 +1,6 @@
 package stratege.version8.pattern1;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -19,5 +20,10 @@ public class AssetUtilRefactored {
 	//良い例かは分からないが、このようなこともできる。
 	public static Predicate<Asset> EXPRESSION_2() {
 		return asset -> asset.getType() == AssetType.BOND;
+	}
+	
+	public static void exec() {
+		
+		totalAssetValues(new ArrayList<Asset>(), EXPRESSION_2());
 	}
 }
