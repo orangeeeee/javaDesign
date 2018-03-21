@@ -4,7 +4,7 @@ package dzone.sample.strategy;
  * カードクラスのインスタンス生成クラス
  */
 public class PaymentMethodFactory {
-	
+
 	/**
 	 * 指定タイプのカードクラスのインスタンスを生成
 	 * @param type
